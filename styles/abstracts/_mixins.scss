@@ -66,7 +66,7 @@
 @mixin column($nameCol) {
   @for $i from 1 through $colMax {
     .col-#{$nameCol}-#{$i} {
-      width: math.div((100 * $i) / $colMax) * 1%;
+      width: math.div(100 * $i, $colMax) * 1%;
     }
   }
 }
