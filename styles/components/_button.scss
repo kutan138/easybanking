@@ -1,0 +1,15 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 1.4rem 3.5rem;
+  border-radius: 5rem;
+  color: $colorWhite;
+  cursor: pointer;
+  font-weight: 400;
+  &:hover {
+    opacity: 0.7;
+  }
+  &--primary {
+    background-image: linear-gradient(to right, $limeGreen, $brightCyan);
+  }
+}

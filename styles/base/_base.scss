@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: $font-normal;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.isSticky + .content {
+  padding-top: $header-height;
+}
+.content {
+  position: relative;
+  flex: 1;
+}
+
+.hide-for-mobile {
+  @include responsive(max-lg) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include responsive(min-lg) {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+  &-jc-c {
+    justify-content: center;
+  }
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+}

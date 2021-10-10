@@ -1,0 +1,105 @@
+.hero {
+  position: relative;
+  background-color: $veryLightGray;
+  padding-bottom: 5rem;
+  @include responsive(min-xl) {
+    padding-bottom: 0;
+  }
+
+  .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    @include responsive(min-xl) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__image {
+    position: relative;
+    background-image: url("/images/bg-intro-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 30rem;
+    @include responsive(min-md) {
+      min-height: 40rem;
+      background-position: center 68%;
+    }
+    @include responsive(min-lg) {
+      min-height: 56rem;
+    }
+    @include responsive(min-xl) {
+      background-image: none;
+      min-height: 65.8rem;
+      left: 0;
+      flex: 2;
+      order: 2;
+      &::after {
+        position: absolute;
+        content: "";
+        background-image: url("/images/bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 104%;
+        background-position: left bottom;
+        z-index: 0;
+        width: 140%;
+        height: 106%;
+        left: 12%;
+      }
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      z-index: 1;
+      background-image: url("/images/image-mockups.png");
+      background-repeat: no-repeat;
+      background-size: 86%;
+      background-position: right bottom;
+      width: 100%;
+      height: 110%;
+      @include responsive(min-lg) {
+        background-position: center bottom;
+        background-size: 65%;
+      }
+      @include responsive(min-xl) {
+        background-position: center bottom;
+        background-size: 90%;
+        left: 47%;
+      }
+    }
+  }
+  &__text {
+    text-align: center;
+    @include responsive(min-xl) {
+      flex: 1;
+      order: 1;
+      text-align: start;
+      padding-left: 1.5rem;
+    }
+    h1 {
+      color: $darkBlue;
+      font-weight: 400;
+      margin-bottom: 2.5rem;
+      @include responsive(min-lg) {
+        font-size: 5.2rem;
+        font-weight: 300;
+      }
+    }
+    p {
+      color: $grayishBlue;
+      font-weight: 300;
+      margin-bottom: 3.4rem;
+      line-height: 1.4;
+      font-size: 1.4rem;
+      @include responsive(min-lg) {
+        font-size: 1.8rem;
+      }
+    }
+    .btn {
+      font-size: 1.4rem;
+    }
+  }
+}

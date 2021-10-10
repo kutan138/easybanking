@@ -1,0 +1,28 @@
+{
+  "name": "base",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kutan138.github.io/easybanking/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.24",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "typescript": "4.4.3"
+  }
+}

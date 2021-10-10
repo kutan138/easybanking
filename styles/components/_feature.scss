@@ -1,0 +1,65 @@
+.feature {
+  text-align: center;
+  background-color: $lightGrayishBlue;
+  padding: 5rem 0;
+  @include responsive(min-md) {
+    text-align: start;
+  }
+  &__info {
+    margin-bottom: 6.4rem;
+    h2 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 300;
+      @include responsive(min-md) {
+        font-size: 3.6rem;
+      }
+    }
+    p {
+      color: $grayishBlue;
+      line-height: 1.4;
+      font-size: 1.4rem;
+      @include responsive(min-md) {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @include responsive(min-md) {
+      flex-direction: row;
+    }
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    @include responsive(min-md) {
+      flex: 50%;
+    }
+    @include responsive(min-lg) {
+      flex: 1;
+      align-items: flex-start;
+    }
+  }
+  &__icon {
+    width: 7.2rem;
+    height: 7.2rem;
+    margin-bottom: 3rem;
+  }
+  &__title {
+    font-size: 2.4rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+  &__desc {
+    font-weight: 300;
+    color: $grayishBlue;
+    margin-bottom: 3.8rem;
+    line-height: 1.4;
+    font-size: 1.4rem;
+  }
+}

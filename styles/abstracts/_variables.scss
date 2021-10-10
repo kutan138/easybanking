@@ -1,0 +1,48 @@
+// Size screen responsive
+$mobile: 23.75em; // 380px
+$big-mobile: 36em; // 576px
+$tablet: 48em; // 768px
+$big-tablet: 60em; // 960px
+$laptop: 75em; // 1200px
+$pc: 90em; // 1440px
+
+// Height Element
+$header-height: 8rem; // Height menu
+
+// Object Responsive
+$breakpoints: (
+  mobile: $mobile,
+  big-mobile: $big-mobile,
+  tablet: $tablet,
+  big-tablet: $big-tablet,
+  laptop: $laptop,
+  pc: $pc,
+);
+
+//Grid
+$grid: (
+  container: (
+    width: 1200,
+    gap: 15,
+  ),
+  columns: (
+    max: 12,
+    gap: 30,
+  ),
+  breakpoints: (
+    default: xs,
+    sm: 768,
+    md: 960,
+    lg: 1200,
+  ),
+);
+
+//Font
+$font-sm: 1.4rem;
+$font-normal: 1.6rem;
+$font-md: 1.8rem;
+$font-large: 2rem;
+$font-xlarge: 5rem;
+$font-h1: 3.7rem;
+$font-h2: 3.6rem;
+$font-h3: 2.6rem;
