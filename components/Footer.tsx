@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from "next";
+import Link from "next/link";
 
 const Footer: NextPage = () => {
   return (
@@ -31,31 +32,33 @@ const Footer: NextPage = () => {
             <div className="footer__link">
               <ul>
                 <li>
-                  <a href="/">About Us</a>
+                  <Link href="/">About Us</Link>
                 </li>
                 <li>
-                  <a href="">Contact</a>
+                  <Link href="">Contact</Link>
                 </li>
                 <li>
-                  <a href="">Blog</a>
+                  <Link href="">Blog</Link>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a href="/">Careers</a>
+                  <Link href="/">Careers</Link>
                 </li>
                 <li>
-                  <a href="">Support</a>
+                  <Link href="">Support</Link>
                 </li>
                 <li>
-                  <a href="">Privacy Policy</a>
+                  <Link href="">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-xs-12 col-md-3">
             <div className="footer__cta">
-              <a className="btn btn--primary">Request Invite</a>
+              <button className="btn btn--primary hide-for-mobile">
+                Request Invite
+              </button>
               <div className="footer__copyright">
                 © EasyBank. All Rights Reserved.
               </div>
