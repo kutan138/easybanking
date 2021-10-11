@@ -10,12 +10,9 @@ $colGap: map-deep-get($grid, "columns", "gap");
   margin: auto;
 }
 
-.container-fluid {
-  width: 100%;
-}
-
 .container,
 .container-fluid {
+  width: 100%;
   padding-left: $containerGap * 1px;
   padding-right: $containerGap * 1px;
 }

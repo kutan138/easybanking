@@ -30,44 +30,54 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div className="feature__list">
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src="/images/icon-budgeting.svg" alt="" />
+            <div className="row">
+              <div className="col-xs-12 col-sm-6 col-lg-3">
+                <div className="feature__item">
+                  <div className="feature__icon">
+                    <img src="/images/icon-budgeting.svg" alt="" />
+                  </div>
+                  <div className="feature__title">Online Banking</div>
+                  <div className="feature__desc">
+                    Our modern web and mobile applications allow you to keep
+                    track of your finances wherever you are in the world.
+                  </div>
+                </div>
               </div>
-              <div className="feature__title">Online Banking</div>
-              <div className="feature__desc">
-                Our modern web and mobile applications allow you to keep track
-                of your finances wherever you are in the world.
+              <div className="col-xs-12 col-sm-6 col-lg-3">
+                <div className="feature__item">
+                  <div className="feature__icon">
+                    <img src="/images/icon-budgeting.svg" alt="" />
+                  </div>
+                  <div className="feature__title">Simple Budgeting</div>
+                  <div className="feature__desc">
+                    See exactly where your money goes each month. Receive
+                    notifications when you’re close to hitting your limits.
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src="/images/icon-budgeting.svg" alt="" />
+              <div className="col-xs-12 col-sm-6 col-lg-3">
+                <div className="feature__item">
+                  <div className="feature__icon">
+                    <img src="/images/icon-budgeting.svg" alt="" />
+                  </div>
+                  <div className="feature__title">Fast Onboarding</div>
+                  <div className="feature__desc">
+                    We don’t do branches. Open your account in minutes online
+                    and start taking control of your finances right away.
+                  </div>
+                </div>
               </div>
-              <div className="feature__title">Simple Budgeting</div>
-              <div className="feature__desc">
-                See exactly where your money goes each month. Receive
-                notifications when you’re close to hitting your limits.
-              </div>
-            </div>
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src="/images/icon-budgeting.svg" alt="" />
-              </div>
-              <div className="feature__title">Fast Onboarding</div>
-              <div className="feature__desc">
-                We don’t do branches. Open your account in minutes online and
-                start taking control of your finances right away.
-              </div>
-            </div>
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src="/images/icon-budgeting.svg" alt="" />
-              </div>
-              <div className="feature__title">Open API</div>
-              <div className="feature__desc">
-                Manage your savings, investments, pension, and much more from
-                one account. Tracking your money has never been easier.
+              <div className="col-xs-12 col-sm-6 col-lg-3">
+                <div className="feature__item">
+                  <div className="feature__icon">
+                    <img src="/images/icon-budgeting.svg" alt="" />
+                  </div>
+                  <div className="feature__title">Open API</div>
+                  <div className="feature__desc">
+                    Manage your savings, investments, pension, and much more
+                    from one account. Tracking your money has never been easier.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -77,7 +87,7 @@ const Home: NextPage = () => {
         <div className="container">
           <h2>Latest article</h2>
           <div className="article__list row">
-            <div className="col-sm-6 col-md-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="article__item">
                 <div className="article__image">
                   <img src="https://codercoder-easybank.pages.dev/images/image-currency.jpg" />
@@ -95,7 +105,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="article__item">
                 <div className="article__image">
                   <img src="https://codercoder-easybank.pages.dev/images/image-restaurant.jpg" />
@@ -112,7 +122,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="article__item">
                 <div className="article__image">
                   <img src="https://codercoder-easybank.pages.dev/images/image-plane.jpg" />
@@ -130,7 +140,7 @@ const Home: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3">
+            <div className="col-xs-12 col-sm-6 col-md-3">
               <div className="article__item">
                 <div className="article__image">
                   <img src="https://codercoder-easybank.pages.dev/images/image-confetti.jpg" />

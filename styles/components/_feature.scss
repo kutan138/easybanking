@@ -24,14 +24,6 @@
       }
     }
   }
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    @include responsive(min-md) {
-      flex-direction: row;
-    }
-  }
   &__item {
     display: flex;
     flex-direction: column;
