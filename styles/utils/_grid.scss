@@ -36,7 +36,7 @@ $colGap: map-deep-get($grid, "columns", "gap");
     $colDefault: map-deep-get($grid, "breakpoints", "default");
     @include column($colDefault);
   } @else {
-    @media (min-width: $val* 1px) {
+    @media (min-width: $val* 1em) {
       @include column($key);
     }
   }

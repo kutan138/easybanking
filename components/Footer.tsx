@@ -32,24 +32,24 @@ const Footer: NextPage = () => {
             <div className="footer__link">
               <ul>
                 <li>
-                  <Link href="/">About Us</Link>
+                  <Link href="#">About Us</Link>
                 </li>
                 <li>
-                  <Link href="">Contact</Link>
+                  <Link href="#">Contact</Link>
                 </li>
                 <li>
-                  <Link href="">Blog</Link>
+                  <Link href="#">Blog</Link>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <Link href="/">Careers</Link>
+                  <Link href="#">Careers</Link>
                 </li>
                 <li>
-                  <Link href="">Support</Link>
+                  <Link href="#">Support</Link>
                 </li>
                 <li>
-                  <Link href="">Privacy Policy</Link>
+                  <Link href="#">Privacy Policy</Link>
                 </li>
               </ul>
             </div>

@@ -63,11 +63,11 @@ const Header: NextPage = () => {
                 <span></span>
               </div>
               <div className="header__link hide-for-mobile">
-                <Link href="/">Home</Link>
-                <Link href="/">About</Link>
-                <Link href="/">Contact</Link>
-                <Link href="/">Blog</Link>
-                <Link href="/">Careers</Link>
+                <Link href="#">Home</Link>
+                <Link href="#">About</Link>
+                <Link href="#">Contact</Link>
+                <Link href="#">Blog</Link>
+                <Link href="#">Careers</Link>
               </div>
               <button className="btn btn--primary hide-for-mobile">
                 Request Invite
@@ -76,11 +76,11 @@ const Header: NextPage = () => {
           </div>
         </nav>
         <div className={menuMobileClassNames}>
-          <Link href="/">Home</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Contact</Link>
-          <Link href="/">Blog</Link>
-          <Link href="/">Careers</Link>
+          <Link href="#">Home</Link>
+          <Link href="#">About</Link>
+          <Link href="#">Contact</Link>
+          <Link href="#">Blog</Link>
+          <Link href="#">Careers</Link>
         </div>
       </header>
     </>
