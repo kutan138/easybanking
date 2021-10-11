@@ -7,7 +7,7 @@ const Footer: NextPage = () => {
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-3">
+          <div className="col-xs-12 col-md-2">
             <div className="footer__left">
               <div className="footer__logo">
                 <img src="/images/logo-dark.svg" alt="" />
@@ -28,7 +28,7 @@ const Footer: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12 col-md-7">
             <div className="footer__link">
               <ul>
                 <li>
@@ -56,9 +56,7 @@ const Footer: NextPage = () => {
           </div>
           <div className="col-xs-12 col-md-3">
             <div className="footer__cta">
-              <button className="btn btn--primary hide-for-mobile">
-                Request Invite
-              </button>
+              <button className="btn btn--primary">Request Invite</button>
               <div className="footer__copyright">
                 © EasyBank. All Rights Reserved.
               </div>
