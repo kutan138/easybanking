@@ -18,9 +18,6 @@ body {
   overflow-x: hidden;
 }
 
-.isSticky + .content {
-  padding-top: $header-height;
-}
 .content {
   position: relative;
   flex: 1;

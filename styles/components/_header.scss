@@ -1,4 +1,7 @@
 $containerGap: map-deep-get($grid, "container", "gap");
+.isSticky + .content {
+  padding-top: $header-height;
+}
 .header {
   background-color: $colorWhite;
   z-index: 999;
