@@ -26,7 +26,9 @@ $containerGap: map-deep-get($grid, "container", "gap");
   &.isSticky {
     position: fixed;
     width: 100%;
-    top: 0;
+    top: -$header-height;
+    transform: translateY($header-height);
+    transition: all 0.35s ease-in-out;
   }
 
   &__toggle {
